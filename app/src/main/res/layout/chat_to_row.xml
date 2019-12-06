@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                             xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+                                             android:layout_height="wrap_content"
+                                             android:layout_marginBottom="12dp"
+>
+
+    <TextView
+            android:text="dsfsdfasdafdefasfdasdfdassdfsa tgasdfawervgawebwsf egtf basfasfsf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:maxWidth="240dp"
+            android:background="@drawable/rounded_registerbtn"
+            android:id="@+id/textView_To_row"
+            app:layout_constraintTop_toTopOf="@+id/ImageView_to_row"
+            android:layout_marginEnd="16dp" app:layout_constraintEnd_toStartOf="@+id/ImageView_to_row"/>
+    <de.hdodenhof.circleimageview.CircleImageView
+            app:civ_border_width="2dp"
+            app:civ_border_color="@android:color/black"
+            android:layout_width="50dp"
+            android:layout_height="50dp" app:srcCompat="@android:drawable/btn_star_big_on"
+            android:id="@+id/ImageView_to_row"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="16dp" app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="4dp"
+    />
+</android.support.constraint.ConstraintLayout>
